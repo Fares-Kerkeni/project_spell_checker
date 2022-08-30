@@ -68,7 +68,7 @@ export default {
             };
             //modification de la valeur de data
 
-            options.data=options.data.replace('1', this.test);
+            options.data=options.data.replace('1', this.change_word);
             
             axios.request(options).then(function (response) {
                 //const suggestions=response.data.elements[0].errors[0].suggestions
