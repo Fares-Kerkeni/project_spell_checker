@@ -8,9 +8,9 @@
     <input type="submit" @click="submit">
     
     <div class="words">
-        <div class="error_word" v-for="post in  splits " v-bind:key="post.id" >
+        <span class="error_word" v-for="post in  splits " v-bind:key="post.id" >
             {{post}}
-        </div> 
+        </span> 
     </div>
     
 </div>
