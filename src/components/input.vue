@@ -12,9 +12,7 @@
             {{post}}
         </div> 
     </div>
-    <div>
-        {{errors_copie}}
-    </div>
+    
 </div>
  
     
