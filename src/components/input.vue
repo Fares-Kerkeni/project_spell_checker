@@ -29,7 +29,7 @@ export default {
     },
     data(){
         return{
-            test: '',
+            change_word: '',
             comp: 0,
             splits:[],
             
@@ -41,9 +41,9 @@ export default {
     methods:{
         submit: function(){
             //stocker le text utilisateur
-            this.test+=this.modelValue
+            this.change_word+=this.modelValue
             //tranformation en tableau
-            this.splits = this.test.split(" ");
+            this.splits = this.change_word.split(" ");
             console.log()
             this.api()
             
